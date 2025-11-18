@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Deseos - Amigo Secreto</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --bg-color: #f4f4f9;
+            --card-bg: #ffffff;
+            --price-color: #27ae60;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 15px;
+        }
+        h1 { color: var(--primary-color); margin: 0; font-size: 2rem; }
+        h3 { color: #7f8c8d; margin-top: 5px; font-weight: 400; }
+        
+        .item-card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border: 1px solid #eee;
+        }
+        .item-card img {
+            width: 100%;
+            height: 220px; /* Altura fija para uniformidad */
+            object-fit: cover; /* Recorta la imagen para que encaje sin deformarse */
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+        }
+        .item-title { color: var(--primary-color); font-size: 1.3rem; margin: 0 0 5px 0; }
+        
+        .price-tag {
+            display: inline-block;
+            background-color: var(--price-color);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        .item-desc { font-size: 0.95rem; line-height: 1.5; margin-bottom: 15px; color: #555; }
+        
+        .location-box {
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            color: #856404;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+        }
+        .location-box strong { display: block; margin-bottom: 4px; color: #533f03; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>LISTA DE DESEOS</h1>
+        <h3>Opciones tecnológicas útiles</h3>
+    </header>
+
+    <main>
+        <div class="item-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Precision_screwdrivers_02.jpg/640px-Precision_screwdrivers_02.jpg" alt="Kit Destornilladores">
+            <h2 class="item-title">1. Kit de Destornilladores de Precisión</h2>
+            <div class="price-tag">Precio Aprox: S/ 25 - S/ 35</div>
+            <div class="item-desc">
+                Set de puntas intercambiables imantadas (tipo "Xiaomi", "Jitu" o estuche tipo billetera). Útil para mantenimiento de laptops, consolas y lentes.
+            </div>
+            <div class="location-box">
+                <strong>📍 Dónde comprar en Arequipa:</strong>
+                Galería Siglo XX (puestos de repuestos de celular) o sótanos de galerías en Octavio Muñoz Najar.
+            </div>
+        </div>
+
+        <div class="item-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Mouse_pad_and_mouse.jpg/640px-Mouse_pad_and_mouse.jpg" alt="Mousepad XL">
+            <h2 class="item-title">2. Mousepad Gamer XL (80x30cm)</h2>
+            <div class="price-tag">Precio Aprox: S/ 25 - S/ 30</div>
+            <div class="item-desc">
+                Alfombrilla grande que cubre teclado y mouse. Preferible diseño "Mapa Mundi" o negro entero con bordes cosidos.
+            </div>
+            <div class="location-box">
+                <strong>📍 Dónde comprar en Arequipa:</strong>
+                Galería CompuArequipa (Octavio Muñoz Najar 223), cualquier stand de periféricos en la entrada.
+            </div>
+        </div>
+
+        <div class="item-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/External_Hard_Drive_Case.jpg/640px-External_Hard_Drive_Case.jpg" alt="Estuche Rígido">
+            <h2 class="item-title">3. Estuche Rígido + Kit de Limpieza</h2>
+            <div class="price-tag">Precio Aprox: S/ 30 (Ambos)</div>
+            <div class="item-desc">
+                Estuche duro pequeño (con cierre) para proteger audífonos In-Ear + Lápiz/Kit de limpieza para auriculares.
+            </div>
+            <div class="location-box">
+                <strong>📍 Dónde comprar en Arequipa:</strong>
+                Tiendas de accesorios de celular en Calle San Juan de Dios o Mercaderes.
+            </div>
+        </div>
+
+        <div class="item-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/USB_Hub_4_port.jpg/640px-USB_Hub_4_port.jpg" alt="Hub USB 3.0">
+            <h2 class="item-title">4. Hub USB 3.0 (4 Puertos)</h2>
+            <div class="price-tag">Precio Aprox: S/ 35 - S/ 40</div>
+            <div class="item-desc">
+                Extensor de puertos USB. <strong>Importante:</strong> Verificar que la lengüeta interna de los puertos sea de color AZUL (USB 3.0).
+            </div>
+            <div class="location-box">
+                <strong>📍 Dónde comprar en Arequipa:</strong>
+                Galería Nova Center o CompuArequipa (Octavio Muñoz Najar). Marcas: Ugreen, Vention o Genérico bueno.
+            </div>
+        </div>
+
+        <div class="item-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Thermal_paste_application.jpg/640px-Thermal_paste_application.jpg" alt="Pasta Térmica">
+            <h2 class="item-title">5. Pasta Térmica Arctic MX-4</h2>
+            <div class="price-tag">Precio Aprox: S/ 35 - S/ 45</div>
+            <div class="item-desc">
+                Jeringa de pasta térmica de alto rendimiento (4g) para mantenimiento de PC/Consolas. Empaque azul.
+            </div>
+            <div class="location-box">
+                <strong>📍 Dónde comprar en Arequipa:</strong>
+                Tiendas grandes como Mesajil Hnos o Yamoshi (Octavio Muñoz Najar) para evitar falsificaciones.
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
